@@ -1,0 +1,6 @@
+This is a simple example of an evolutionary algorithm
+1) Evolutionary algorithms don't always converge to the optimal solution
+2) The "bigger" the problem space, the better evolutionary algorithms become in relation to a brute force approach
+3) Problems that work well with an evolutionary algorithm are those in which better solutions can be found incrementally (the fitter the individual, the fitter its offspring should be)
+4) Individuals tend to become fitter every generation, but this is not a rule
+5) A good fitness function needs to be gradual, not binary. For instance, "Was the goal reached?" is a bad fittness function. "How close did this individual get to the goal?" is better
